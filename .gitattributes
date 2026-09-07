@@ -1,0 +1,10 @@
+* text=auto
+*.sh text eol=lf
+*.command text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.swift text eol=lf
+*.md text eol=lf
+
+# Preserve upstream formatting in bundled third-party files.
+vendor/** -whitespace
